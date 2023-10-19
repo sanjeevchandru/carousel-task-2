@@ -1,0 +1,36 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+section{
+    background-image: url(../images/testimonials-bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-item>img{
+    filter:opacity(0%);
+
+}
+.carousel-item{
+    height: 70vh;
+}
+.carousel-indicators [data-bs-target]{
+    width: 10px !important;
+    height:10px !important;
+    background-color: #7cc576 !important ;
+    border-radius:50%;
+}
+.carousel-caption img{
+    border-radius: 50%;
+    width: 15%;
+    height: 15%;
+    border: 9px solid #ffffff39;
+}
+.icon i{
+    color:#7cc576;
+    padding: 20px;
+    border: 3px solid #7cc576;
+    border-radius: 50%;
+}
